@@ -53,9 +53,9 @@ int main(int argc, char *argv[]) {
             writebytes += buffersize;
         }
 
-        std::cout << "Successfully create file with trash!" << std::endl;
-
         outfile.close();
+        delete[] buffer;
+        std::cout << "Successfully create file with trash!" << std::endl;
     }
 
     return 0;
