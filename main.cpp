@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
         std::cout << "Usage: generate_huge_file <filename> <size-in-bytes> <zero|trash|trashrnd>" << std::endl;
         std::cout << "zero    - very fast" << std::endl;
         std::cout << "trash   - slow" << std::endl;
-        std::cout << "zerornd - very slow" << std::endl;
+        std::cout << "trashrnd - very slow" << std::endl;
         return 1;
     }
 
